@@ -94,8 +94,13 @@ JSON으로 저장하지 않고 종료하면 초기 상태로 돌아갑니다.
 
 VSCode, Python 버전, Git 설정 화면입니다.
 
+- VSCode 및 Python 확장
 ![VSCode 및 Python 확장](./screenshots/setup_vscode.png)
+
+- Python 버전 확인
 ![Python 버전 확인](./screenshots/setup_python.png)
+
+- Git 사용자 정보 및 기본 브랜치 설정
 ![Git 사용자 정보 및 기본 브랜치 설정](./screenshots/setup_git.png)
 
 
@@ -103,9 +108,16 @@ VSCode, Python 버전, Git 설정 화면입니다.
 
 메뉴 화면, 프롬프트 추가, 목록, 검색 등 주요 기능의 실행 결과입니다.
 
+- 메뉴 화면
 ![메뉴 화면](./screenshots/run_menu.png)
+
+- 프롬프트 추가
 ![프롬프트 추가](./screenshots/run_add.png)
+
+- 프롬프트 목록
 ![프롬프트 목록](./screenshots/run_list.png)
+
+- 프롬프트 검색
 ![프롬프트 검색](./screenshots/run_search.png)
 
 ### Git 커밋 그래프
