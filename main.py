@@ -29,8 +29,14 @@ def show_menu():
     print("3. 카테고리별 조회")
     print("4. 프롬프트 검색")
     print("5. 프롬프트 상세 보기")
-    print("6. 즐겨찾기 관리")
-    print("7. 즐겨찾기 목록")
+    print("6. 프롬프트 수정")
+    print("7. 프롬프트 삭제")
+    print("8. 즐겨찾기 추가/해제")
+    print("9. 즐겨찾기 목록")
+    print("10. 조회수 Top 목록")
+    print("11. 데이터 저장 (JSON)")
+    print("12. 데이터 불러오기 (JSON)")
+    print("13. 카테고리별 Markdown 내보내기")
     print("0. 종료")
 
 def add_prompt():
@@ -46,13 +52,31 @@ def search_prompt():
     print("\n=== 프롬프트 검색 ===")
 
 def detail_prompt():
-    print("\n=== 프롬프트 상세 보기 ===") 
+    print("\n=== 프롬프트 상세 보기 ===")
+
+def update_prompt():
+    print("\n=== 프롬프트 수정 ===")
+
+def delete_prompt():
+    print("\n=== 프롬프트 삭제 ===")
 
 def manage_favorite():
-    print("\n=== 즐겨찾기 관리 ===")
+    print("\n=== 즐겨찾기 추가/해제 ===")
 
 def show_favorite_list():
     print("\n=== 즐겨찾기 목록 ===")
+
+def show_top_viewed():
+    print("\n=== 조회수 Top 목록 ===")
+
+def save_to_json():
+    print("\n=== 데이터 저장 (JSON) ===")
+
+def load_from_json():
+    print("\n=== 데이터 불러오기 (JSON) ===")
+
+def export_to_markdown():
+    print("\n=== 카테고리별 Markdown 내보내기 ===")
 
 def main():
     while True:
@@ -70,9 +94,21 @@ def main():
         elif choice == "5":
             detail_prompt()
         elif choice == "6":
-            manage_favorite()
+            update_prompt()
         elif choice == "7":
+            delete_prompt()
+        elif choice == "8":
+            manage_favorite()
+        elif choice == "9":
             show_favorite_list()
+        elif choice == "10":
+            show_top_viewed()
+        elif choice == "11":
+            save_to_json()
+        elif choice == "12":
+            load_from_json()
+        elif choice == "13":
+            export_to_markdown()
         elif choice == "0":
             print("프로그램을 종료합니다.")
             break
